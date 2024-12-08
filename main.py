@@ -30,13 +30,13 @@ class RUReservation:
 
     def login_user(self):
         # Usuário
-        usr = "carlosrodrigueszx"
+        usr = "##seu username no SIGAA##"
         boxUsr = self.driver.find_element(By.XPATH, '//*[@id="conteudo"]/table/tbody/tr/td/div/form/table/tbody/tr[1]/td/input')
         boxUsr.clear()
         boxUsr.send_keys(usr)
 
         # Senha
-        passw = "Aluno2022!"
+        passw = "##sua senha no SIGAA##"
         boxPass = self.driver.find_element(By.XPATH, '//*[@id="conteudo"]/table/tbody/tr/td/div/form/table/tbody/tr[2]/td/input')
         boxPass.clear()
         boxPass.send_keys(passw)
